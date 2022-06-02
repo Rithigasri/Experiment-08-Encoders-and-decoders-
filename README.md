@@ -68,7 +68,6 @@ D7 = X Y Z
 6. Get the RTL logic and timing diagrams for encoders and decoders.
 ## ENCODERS:
 ### PROGRAM CODE:
-/*
 Program for Endcoders verify its truth table in quartus using Verilog programming.  
 Developed by: Rithiga Sri.B  
 RegisterNumber: 212221230083
@@ -81,7 +80,7 @@ or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
 ```
-*/
+
 ### RTL LOGIC:
 ![output](./encoder.png)
 
@@ -93,7 +92,6 @@ endmodule
 
 ## DECODERS:
 ### PROGRAM CODE:
-/*
 Program for Decoders verify its truth table in quartus using Verilog programming.  
 Developed by: Rithiga Sri.B  
 RegisterNumber: 212221230083
@@ -111,7 +109,6 @@ assign d6=(a&b&~c);
 assign d7=(a&b&c);
 endmodule
 ```
-*/
 ### RTL LOGIC:
 ![output](./decoder.png)
 
